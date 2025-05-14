@@ -2,6 +2,9 @@
 # Host Header Fuzzer
 
 A simple tool for fuzzing virtual hosts on a given IP using the `Host` header and comparing response sizes to detect active virtual hosts.
+> Host header fuzzing is a technique used by security researchers to identify hidden assets and vulnerabilities on a web server.
+> **That asset (subdomain) may still exist as a `virtual host on the web server`, or may still be set up as a role in the `firewall routing`.**
+
 
 ## Features
 
